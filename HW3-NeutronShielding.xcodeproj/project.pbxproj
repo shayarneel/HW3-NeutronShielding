@@ -1,0 +1,710 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2BE129D327B5C0BD00C70528 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE129D227B5C0BD00C70528 /* Tests_iOS.swift */; };
+		2BE129D527B5C0BD00C70528 /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE129D427B5C0BD00C70528 /* Tests_iOSLaunchTests.swift */; };
+		2BE129DF27B5C0BD00C70528 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE129DE27B5C0BD00C70528 /* Tests_macOS.swift */; };
+		2BE129E127B5C0BD00C70528 /* Tests_macOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE129E027B5C0BD00C70528 /* Tests_macOSLaunchTests.swift */; };
+		2BE129E227B5C0BD00C70528 /* HW3_NeutronShieldingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE129BA27B5C0BA00C70528 /* HW3_NeutronShieldingApp.swift */; };
+		2BE129E327B5C0BD00C70528 /* HW3_NeutronShieldingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE129BA27B5C0BA00C70528 /* HW3_NeutronShieldingApp.swift */; };
+		2BE129E427B5C0BD00C70528 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE129BB27B5C0BA00C70528 /* ContentView.swift */; };
+		2BE129E527B5C0BD00C70528 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE129BB27B5C0BA00C70528 /* ContentView.swift */; };
+		2BE129E627B5C0BD00C70528 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BE129BC27B5C0BD00C70528 /* Assets.xcassets */; };
+		2BE129E727B5C0BD00C70528 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BE129BC27B5C0BD00C70528 /* Assets.xcassets */; };
+		2BE129F727B7028A00C70528 /* ShieldingBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE129F627B7028A00C70528 /* ShieldingBox.swift */; };
+		2BE129F827B7028A00C70528 /* ShieldingBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE129F627B7028A00C70528 /* ShieldingBox.swift */; };
+		2BE129FD27BB13AD00C70528 /* NeutronShielding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE129FC27BB13AD00C70528 /* NeutronShielding.swift */; };
+		2BE129FE27BB13AD00C70528 /* NeutronShielding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE129FC27BB13AD00C70528 /* NeutronShielding.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2BE129CF27B5C0BD00C70528 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2BE129B527B5C0BA00C70528 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2BE129C027B5C0BD00C70528;
+			remoteInfo = "HW3-NeutronShielding (iOS)";
+		};
+		2BE129DB27B5C0BD00C70528 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2BE129B527B5C0BA00C70528 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2BE129C627B5C0BD00C70528;
+			remoteInfo = "HW3-NeutronShielding (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2BE129BA27B5C0BA00C70528 /* HW3_NeutronShieldingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HW3_NeutronShieldingApp.swift; sourceTree = "<group>"; };
+		2BE129BB27B5C0BA00C70528 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2BE129BC27B5C0BD00C70528 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2BE129C127B5C0BD00C70528 /* HW3-NeutronShielding.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HW3-NeutronShielding.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BE129C727B5C0BD00C70528 /* HW3-NeutronShielding.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HW3-NeutronShielding.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BE129C927B5C0BD00C70528 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		2BE129CE27B5C0BD00C70528 /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BE129D227B5C0BD00C70528 /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		2BE129D427B5C0BD00C70528 /* Tests_iOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOSLaunchTests.swift; sourceTree = "<group>"; };
+		2BE129DA27B5C0BD00C70528 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BE129DE27B5C0BD00C70528 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		2BE129E027B5C0BD00C70528 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		2BE129F627B7028A00C70528 /* ShieldingBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShieldingBox.swift; sourceTree = "<group>"; };
+		2BE129FC27BB13AD00C70528 /* NeutronShielding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeutronShielding.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2BE129BE27B5C0BD00C70528 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BE129C427B5C0BD00C70528 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BE129CB27B5C0BD00C70528 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BE129D727B5C0BD00C70528 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2BE129B427B5C0BA00C70528 = {
+			isa = PBXGroup;
+			children = (
+				2BE129B927B5C0BA00C70528 /* Shared */,
+				2BE129C827B5C0BD00C70528 /* macOS */,
+				2BE129D127B5C0BD00C70528 /* Tests iOS */,
+				2BE129DD27B5C0BD00C70528 /* Tests macOS */,
+				2BE129C227B5C0BD00C70528 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2BE129B927B5C0BA00C70528 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				2BE129BA27B5C0BA00C70528 /* HW3_NeutronShieldingApp.swift */,
+				2BE129BB27B5C0BA00C70528 /* ContentView.swift */,
+				2BE129F627B7028A00C70528 /* ShieldingBox.swift */,
+				2BE129FC27BB13AD00C70528 /* NeutronShielding.swift */,
+				2BE129BC27B5C0BD00C70528 /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		2BE129C227B5C0BD00C70528 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2BE129C127B5C0BD00C70528 /* HW3-NeutronShielding.app */,
+				2BE129C727B5C0BD00C70528 /* HW3-NeutronShielding.app */,
+				2BE129CE27B5C0BD00C70528 /* Tests iOS.xctest */,
+				2BE129DA27B5C0BD00C70528 /* Tests macOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2BE129C827B5C0BD00C70528 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				2BE129C927B5C0BD00C70528 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		2BE129D127B5C0BD00C70528 /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				2BE129D227B5C0BD00C70528 /* Tests_iOS.swift */,
+				2BE129D427B5C0BD00C70528 /* Tests_iOSLaunchTests.swift */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		2BE129DD27B5C0BD00C70528 /* Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				2BE129DE27B5C0BD00C70528 /* Tests_macOS.swift */,
+				2BE129E027B5C0BD00C70528 /* Tests_macOSLaunchTests.swift */,
+			);
+			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2BE129C027B5C0BD00C70528 /* HW3-NeutronShielding (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BE129EA27B5C0BD00C70528 /* Build configuration list for PBXNativeTarget "HW3-NeutronShielding (iOS)" */;
+			buildPhases = (
+				2BE129BD27B5C0BD00C70528 /* Sources */,
+				2BE129BE27B5C0BD00C70528 /* Frameworks */,
+				2BE129BF27B5C0BD00C70528 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HW3-NeutronShielding (iOS)";
+			productName = "HW3-NeutronShielding (iOS)";
+			productReference = 2BE129C127B5C0BD00C70528 /* HW3-NeutronShielding.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2BE129C627B5C0BD00C70528 /* HW3-NeutronShielding (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BE129ED27B5C0BD00C70528 /* Build configuration list for PBXNativeTarget "HW3-NeutronShielding (macOS)" */;
+			buildPhases = (
+				2BE129C327B5C0BD00C70528 /* Sources */,
+				2BE129C427B5C0BD00C70528 /* Frameworks */,
+				2BE129C527B5C0BD00C70528 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HW3-NeutronShielding (macOS)";
+			productName = "HW3-NeutronShielding (macOS)";
+			productReference = 2BE129C727B5C0BD00C70528 /* HW3-NeutronShielding.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2BE129CD27B5C0BD00C70528 /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BE129F027B5C0BD00C70528 /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				2BE129CA27B5C0BD00C70528 /* Sources */,
+				2BE129CB27B5C0BD00C70528 /* Frameworks */,
+				2BE129CC27B5C0BD00C70528 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2BE129D027B5C0BD00C70528 /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = 2BE129CE27B5C0BD00C70528 /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		2BE129D927B5C0BD00C70528 /* Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BE129F327B5C0BD00C70528 /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildPhases = (
+				2BE129D627B5C0BD00C70528 /* Sources */,
+				2BE129D727B5C0BD00C70528 /* Frameworks */,
+				2BE129D827B5C0BD00C70528 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2BE129DC27B5C0BD00C70528 /* PBXTargetDependency */,
+			);
+			name = "Tests macOS";
+			productName = "Tests macOS";
+			productReference = 2BE129DA27B5C0BD00C70528 /* Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2BE129B527B5C0BA00C70528 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					2BE129C027B5C0BD00C70528 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					2BE129C627B5C0BD00C70528 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					2BE129CD27B5C0BD00C70528 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 2BE129C027B5C0BD00C70528;
+					};
+					2BE129D927B5C0BD00C70528 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 2BE129C627B5C0BD00C70528;
+					};
+				};
+			};
+			buildConfigurationList = 2BE129B827B5C0BA00C70528 /* Build configuration list for PBXProject "HW3-NeutronShielding" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2BE129B427B5C0BA00C70528;
+			productRefGroup = 2BE129C227B5C0BD00C70528 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2BE129C027B5C0BD00C70528 /* HW3-NeutronShielding (iOS) */,
+				2BE129C627B5C0BD00C70528 /* HW3-NeutronShielding (macOS) */,
+				2BE129CD27B5C0BD00C70528 /* Tests iOS */,
+				2BE129D927B5C0BD00C70528 /* Tests macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2BE129BF27B5C0BD00C70528 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BE129E627B5C0BD00C70528 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BE129C527B5C0BD00C70528 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BE129E727B5C0BD00C70528 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BE129CC27B5C0BD00C70528 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BE129D827B5C0BD00C70528 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2BE129BD27B5C0BD00C70528 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BE129E427B5C0BD00C70528 /* ContentView.swift in Sources */,
+				2BE129F727B7028A00C70528 /* ShieldingBox.swift in Sources */,
+				2BE129E227B5C0BD00C70528 /* HW3_NeutronShieldingApp.swift in Sources */,
+				2BE129FD27BB13AD00C70528 /* NeutronShielding.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BE129C327B5C0BD00C70528 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BE129E527B5C0BD00C70528 /* ContentView.swift in Sources */,
+				2BE129F827B7028A00C70528 /* ShieldingBox.swift in Sources */,
+				2BE129E327B5C0BD00C70528 /* HW3_NeutronShieldingApp.swift in Sources */,
+				2BE129FE27BB13AD00C70528 /* NeutronShielding.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BE129CA27B5C0BD00C70528 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BE129D527B5C0BD00C70528 /* Tests_iOSLaunchTests.swift in Sources */,
+				2BE129D327B5C0BD00C70528 /* Tests_iOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BE129D627B5C0BD00C70528 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BE129E127B5C0BD00C70528 /* Tests_macOSLaunchTests.swift in Sources */,
+				2BE129DF27B5C0BD00C70528 /* Tests_macOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2BE129D027B5C0BD00C70528 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2BE129C027B5C0BD00C70528 /* HW3-NeutronShielding (iOS) */;
+			targetProxy = 2BE129CF27B5C0BD00C70528 /* PBXContainerItemProxy */;
+		};
+		2BE129DC27B5C0BD00C70528 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2BE129C627B5C0BD00C70528 /* HW3-NeutronShielding (macOS) */;
+			targetProxy = 2BE129DB27B5C0BD00C70528 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2BE129E827B5C0BD00C70528 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2BE129E927B5C0BD00C70528 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		2BE129EB27B5C0BD00C70528 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "IIT.HW3-NeutronShielding";
+				PRODUCT_NAME = "HW3-NeutronShielding";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2BE129EC27B5C0BD00C70528 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "IIT.HW3-NeutronShielding";
+				PRODUCT_NAME = "HW3-NeutronShielding";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2BE129EE27B5C0BD00C70528 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "IIT.HW3-NeutronShielding";
+				PRODUCT_NAME = "HW3-NeutronShielding";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		2BE129EF27B5C0BD00C70528 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "IIT.HW3-NeutronShielding";
+				PRODUCT_NAME = "HW3-NeutronShielding";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		2BE129F127B5C0BD00C70528 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "IIT.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "HW3-NeutronShielding (iOS)";
+			};
+			name = Debug;
+		};
+		2BE129F227B5C0BD00C70528 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "IIT.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "HW3-NeutronShielding (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2BE129F427B5C0BD00C70528 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "IIT.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "HW3-NeutronShielding (macOS)";
+			};
+			name = Debug;
+		};
+		2BE129F527B5C0BD00C70528 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "IIT.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "HW3-NeutronShielding (macOS)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2BE129B827B5C0BA00C70528 /* Build configuration list for PBXProject "HW3-NeutronShielding" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BE129E827B5C0BD00C70528 /* Debug */,
+				2BE129E927B5C0BD00C70528 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BE129EA27B5C0BD00C70528 /* Build configuration list for PBXNativeTarget "HW3-NeutronShielding (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BE129EB27B5C0BD00C70528 /* Debug */,
+				2BE129EC27B5C0BD00C70528 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BE129ED27B5C0BD00C70528 /* Build configuration list for PBXNativeTarget "HW3-NeutronShielding (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BE129EE27B5C0BD00C70528 /* Debug */,
+				2BE129EF27B5C0BD00C70528 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BE129F027B5C0BD00C70528 /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BE129F127B5C0BD00C70528 /* Debug */,
+				2BE129F227B5C0BD00C70528 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BE129F327B5C0BD00C70528 /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BE129F427B5C0BD00C70528 /* Debug */,
+				2BE129F527B5C0BD00C70528 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2BE129B527B5C0BA00C70528 /* Project object */;
+}
